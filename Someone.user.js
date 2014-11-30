@@ -38,6 +38,14 @@ function replace(){
     for (var i = 0; i < elements.length; i++) {
         elements[i].innerHTML = 'Someone';
     }
+    elements = document.getElementsByClassName("nameText");
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].innerHTML = 'Someone';
+    }
+    elements = document.getElementsByClassName("name");
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].innerHTML = 'Someone';
+    }
     console.log('replace end');
 }
 window.onload = function() {
