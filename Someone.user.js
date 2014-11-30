@@ -13,7 +13,7 @@ console.log('start');
 function replace(){
     console.log('replace begin');
     var elements;
-    elements = document.getElementsByClassName("fbxWelcomeBoxName")[0].innerHTML = 'Someone';
+    //elements = document.getElementsByClassName("fbxWelcomeBoxName")[0].innerHTML = 'Someone';
     elements = document.getElementsByClassName("profileLink");
     for (var i = 0; i < elements.length; i++) {
         elements[i].innerHTML = 'Someone';
